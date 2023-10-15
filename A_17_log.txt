@@ -1,0 +1,91 @@
+01
+
+Begin to generate features.
+dict_keys(['AIM', 'email-client', 'facebook', 'ftps', 'gmail', 'hangout', 'ICQ', 'netflix', 'scp', 'sftp', 'skype', 'spotify', 'vimeo', 'voipbuster', 'youtube', 'Tor', 'Torrent'])
+              precision    recall  f1-score   support
+
+          -1     0.0000    0.0000    0.0000         0
+         AIM     1.0000    0.2528    0.4036       178
+         ICQ     1.0000    0.2700    0.4252       200
+         Tor     1.0000    0.2759    0.4324       116
+     Torrent     0.9875    0.4463    0.6148       177
+email-client     0.9891    0.7165    0.8311       127
+    facebook     1.0000    0.2273    0.3704        66
+        ftps     1.0000    0.6385    0.7793       130
+       gmail     0.9935    0.4153    0.5857       366
+     hangout     1.0000    0.3548    0.5238        93
+     netflix     0.9909    0.1996    0.3323       546
+         scp     0.9630    0.2740    0.4266       949
+        sftp     0.8966    0.3611    0.5149        72
+       skype     1.0000    0.2500    0.4000        88
+     spotify     1.0000    0.0539    0.1022       297
+       vimeo     0.9780    0.2399    0.3853       371
+  voipbuster     0.8000    0.1290    0.2222        62
+     youtube     0.9916    0.1479    0.2574       798
+
+    accuracy                         0.2657      4636
+   macro avg     0.9217    0.2918    0.4226      4636
+weighted avg     0.9826    0.2657    0.4015      4636
+
+02
+
+Begin to generate features.
+dict_keys(['AIM', 'email-client', 'facebook', 'ftps', 'gmail', 'hangout', 'ICQ', 'netflix', 'scp', 'sftp', 'skype', 'spotify', 'vimeo', 'voipbuster', 'youtube', 'Tor', 'Torrent'])
+              precision    recall  f1-score   support
+
+          -1     0.0000    0.0000    0.0000         0
+         AIM     1.0000    0.2444    0.3929       180
+         ICQ     1.0000    0.2000    0.3333       210
+         Tor     1.0000    0.2336    0.3788       107
+     Torrent     0.9750    0.4432    0.6094       176
+email-client     0.9914    0.7372    0.8456       156
+    facebook     1.0000    0.0400    0.0769        25
+        ftps     1.0000    0.7500    0.8571       128
+       gmail     1.0000    0.4282    0.5996       369
+     hangout     0.9907    0.5096    0.6730       208
+     netflix     0.9906    0.1952    0.3261       538
+         scp     0.9848    0.2675    0.4207       972
+        sftp     0.9130    0.3281    0.4828        64
+       skype     0.8750    0.1000    0.1795        70
+     spotify     0.9310    0.0934    0.1698       289
+       vimeo     0.9853    0.1914    0.3206       350
+  voipbuster     1.0000    0.1607    0.2769        56
+     youtube     0.9593    0.1469    0.2549       803
+
+    accuracy                         0.2721      4701
+   macro avg     0.9220    0.2816    0.3999      4701
+weighted avg     0.9788    0.2721    0.4047      4701
+
+03
+
+Begin to generate features.
+dict_keys(['AIM', 'email-client', 'facebook', 'ftps', 'gmail', 'hangout', 'ICQ', 'netflix', 'scp', 'sftp', 'skype', 'spotify', 'vimeo', 'voipbuster', 'youtube', 'Tor', 'Torrent'])
+              precision    recall  f1-score   support
+
+          -1     0.0000    0.0000    0.0000         0
+         AIM     1.0000    0.1943    0.3254       175
+         ICQ     1.0000    0.2477    0.3970       214
+         Tor     1.0000    0.2973    0.4583       111
+     Torrent     0.9420    0.4062    0.5677       160
+email-client     0.9660    0.7933    0.8712       179
+    facebook     1.0000    0.1579    0.2727        38
+        ftps     1.0000    0.6889    0.8158       135
+       gmail     1.0000    0.3989    0.5703       361
+     hangout     0.0000    0.0000    0.0000        27
+     netflix     1.0000    0.1882    0.3168       595
+         scp     0.9720    0.2565    0.4059       811
+        sftp     1.0000    0.3133    0.4771        83
+       skype     0.0000    0.0000    0.0000        42
+     spotify     1.0000    0.1070    0.1933       271
+       vimeo     1.0000    0.2233    0.3651       403
+  voipbuster     1.0000    0.1321    0.2333        53
+     youtube     0.9846    0.1633    0.2801       784
+
+    accuracy                         0.2634      4442
+   macro avg     0.8258    0.2538    0.3639      4442
+weighted avg     0.9732    0.2634    0.3950      4442
+
+04
+
+Begin to generate features.
+dict_keys(['AIM', 'email-client', 'facebook', 'ftps', 'gmail', 'hangout', 'ICQ', 'netflix', 'scp', 'sftp', 'skype', 'spotify', 'vimeo', 'voipbuster', 'youtube', 'Tor', 'Torrent'])

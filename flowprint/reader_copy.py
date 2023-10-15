@@ -69,8 +69,7 @@ class Reader(object):
 
         # If verbose, print which file is currently being read
         if self.verbose:
-            # print("Reading {}...".format(path))
-            pass
+            print("Reading {}...".format(path))
 
         # Check if we can use fast tshark read or slow pyshark read
         try:
@@ -240,7 +239,7 @@ class Reader(object):
             if self.verbose:
                 counter_a += 1
                 counter_b += 1
-                # print("Reading {}... {}/{} packets".format(path, counter_a, counter_b), end='\r')
+                print("Reading {}... {}/{} packets".format(path, counter_a, counter_b), end='\r')
 
             # Get required packet data
             d = [path,

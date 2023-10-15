@@ -1,6 +1,7 @@
 import numpy as np
 import pickle
 import sys
+from tqdm import tqdm
 
 try:
     from .flow_generator import FlowGenerator
@@ -62,7 +63,7 @@ class Preprocessor(object):
         X, y = list(), list()
 
         # Loop over all given files
-        for file, label in zip(files, labels):
+        for file, label in tqdm(zip(files, labels), total=len(files)):
             # On exit, exit for loop
             try:
                 data = np.array(list(self.extract(file).values()))
